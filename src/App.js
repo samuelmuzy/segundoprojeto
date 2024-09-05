@@ -1,10 +1,13 @@
 import './App.css';
+import { ListUsuarios } from './componentes/ListUsuario';
+import { Profeessores } from './componentes/Profeessores';
 
 function App() {
   return (
-    <div>
-        
-    </div>
+    <>
+      <Profeessores></Profeessores>
+      <ListUsuarios></ListUsuarios>
+    </>
   );
 }
 
